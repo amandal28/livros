@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;700&family=Lora:ital,wght@0,400;1,400&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.bodyindex {
+    background: linear-gradient(#B7CDE5, #C3CFE2);
+    color: #2C2C2C;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    background-color: #1F2A44;
+    padding: 15px;
+    padding-left: 65px;
+    border-bottom: 3px solid #EFD9C1;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 0 15px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #f7f0ea;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #EFD9C1;
+}
+
+.hnav {
+    font-family: "Libre Baskerville", serif;
+    font-size: 2rem;
+    margin-top: 11px;
+    align-items: center;
+    justify-content: center;
+    color: #f7f0ea;
+}
+
+footer {
+    background-color: #1F2A44;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h1, h2, nav {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: #f7f0ea;
+    border: 2px solid #EFD9C1;
+    padding: 20px;
+    margin: 30px auto;
+    width: 90%;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.container2 {
+
+    gap: 40px;
+    background-color: #f7f0ea;
+    border: 2px solid #EFD9C1;
+ 
+    width: 90%;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+.container div {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container2 div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.container2 img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+  
+main div {
+    width: 80%;
+    background-color: #ffffff;
+    border: 2px solid #EFD9C1;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+  
+
+  
+main img {
+    width: 120px;
+    height: auto;
+    border-radius: 4px;
+}
+  
+main h3 {
+    font-size: 1rem;
+    text-align: center;
+    color: #3B4C6B;
+    font-family: 'Libre Baskerville', serif;
+}
+  
+main p {
+    font-size: 0.9rem;
+    font-family: 'Lora', serif;
+    text-align: justify;
+    line-height: 1.5;
+    max-height: 130px;
+}
+
+button {
+    background-color: #b8a897; 
+    color: #ffffff; 
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+}
+
+.bloco {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #3B4C6B;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
