@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;700&family=Lora:ital,wght@0,400;1,400&family=Dancing+Script&display=swap');
+
+
+* {
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.bodyindex {
+    background: linear-gradient(#B7CDE5, #C3CFE2);
+    color: #2C2C2C;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    background-color: #1F2A44;
+    padding: 15px;
+    padding-left: 65px;
+    border-bottom: 3px solid #EFD9C1;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 0 15px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #f7f0ea;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #EFD9C1;
+}
+
+.hnav {
+    font-family: "Libre Baskerville", serif;
+    font-size: 2rem;
+    margin-top: 11px;
+    align-items: center;
+    justify-content: center;
+    color: #f7f0ea;
+}
+
+footer {
+    background-color: #1F2A44;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h1, h2, nav {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #fff;
+    border: 2px solid #EFD9C1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 900px;
+}
+
+section img{
+    width: 40%;
+    border-radius: 10px;
+}
+
+main {
+    width: 55%;
+    padding-left: 20px;
+}
+
+h2 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #3B4C6B;
+}
+
+p {
+    font-family: 'Lora', serif;
+    font-size: 0.93rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+
+.descricao{
+    display: flex;
+    line-height: 1.5;
+    font-family: 'Lora', serif;
+    font-size: 0.93rem;
+    margin-bottom: 20px;
+}
